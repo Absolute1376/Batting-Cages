@@ -1,0 +1,15 @@
+.booking {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff3cd;
+  }
+  
+  .booking h1 {
+    color: #856404;
+    font-size: 2em;
+  }
+  
+  .booking p {
+    color: #856404;
+    font-size: 1.2em;
+  }
