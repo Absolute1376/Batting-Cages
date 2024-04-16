@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import BookingPage from './components/BookingPage';
@@ -9,13 +8,13 @@ function App() {
   return (
     <Router>
       <Header />
-         <Routes>
-          <Route path="/" exact component={<HomePage />} />
-          <Route path="/booking" component={<BookingPage />} />
-          <Route path="/AboutUsPage" component={<AboutUsPage />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/booking" element={<BookingPage />} />
+        <Route path="/about-us" element={<AboutUsPage />} />
+      </Routes>
     </Router>
   );
 }
 
-export default App;
+export default App; 
