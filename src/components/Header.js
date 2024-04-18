@@ -3,18 +3,17 @@ import '../styles/Header.css';
 
 const Header = () => {
     return (
-    <header>
+        <header>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">Book a Cage</a></li>
-                    <li><a href="/">Pricing</a></li>
-                    <li><a href="/">Contact Us</a></li>
+                    <li><a href="/booking">Book a Cage</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li><a href="/about-us">About Us</a></li>
                 </ul>
             </nav>
-    </header>
+        </header>
     );
 };
-
 
 export default Header;
